@@ -1,107 +1,117 @@
 :root {
-    --bg-primary: #ffffff;
-    --text-primary: #000000;
-    --text-secondary: #666666;
+  --bg-primary: #ffffff;
+  --text-primary: #000000;
+  --text-secondary: #666666;
 
-    --bg-secondary: #f8f9fa;
-    --bg-tertiary: #f1f3f4;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #f1f3f4;
 
-    --border-light: #e0e0e0;
-    --border-medium: #d0d0d0;
-    --border-dark: #b0b0b0;
+  --border-light: #e0e0e0;
+  --border-medium: #d0d0d0;
+  --border-dark: #b0b0b0;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  gap: 30px;
 }
 
-.generalForm, .practicalForm, .educationForm {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: var(--bg-primary);
-    border-radius: 10px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    padding: 25px;
+.generalForm,
+.practicalForm,
+.educationForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
 }
 
-.generalForm, .practicalItem, .educationItem {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.generalForm,
+.practicalItem,
+.educationItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.practicalItem, .educationItem {
-    position: relative;
+.practicalItem,
+.educationItem {
+  position: relative;
 }
 
-.practicalFormItems, .educationFormItems {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.practicalFormItems,
+.educationFormItems {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.generalForm h2, .practicalForm h2, .educationForm h2 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.generalForm h2,
+.practicalForm h2,
+.educationForm h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .itemRow {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 8px;
-    min-width: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 8px;
+  min-width: 0;
 }
 
-.inputContainer, .textAreaContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+.inputContainer,
+.textAreaContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 label {
-    font-weight: 500;
+  font-weight: 500;
 }
 
-input, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    padding: 8px;
-    border: 1px solid var(--border-dark);
-    border-radius: 4px;
-    width: 100%;
-    box-sizing: border-box;
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 8px;
+  border: 1px solid var(--border-dark);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .addButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .addButton:hover {
-    border-color: #b0b0b0;
+  border-color: #b0b0b0;
 }
 
 .delete {
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    padding: 4px;
-    position: absolute;
-    top: 0;
-    right: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 @media (max-width: 1024px) {

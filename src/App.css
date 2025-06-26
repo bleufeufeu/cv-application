@@ -5,10 +5,10 @@
   --bg-primary: #ffffff;
   --text-primary: #000000;
   --text-secondary: #666666;
-  
+
   --bg-secondary: #f8f9fa;
   --bg-tertiary: #f1f3f4;
-  
+
   --border-light: #e0e0e0;
   --border-medium: #d0d0d0;
   --border-dark: #b0b0b0;
@@ -21,8 +21,12 @@
   padding: 2vw 15vw;
 }
 
-h1, h2, h3, h4, h5 {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
 }
 
 @media (max-width: 1024px) {

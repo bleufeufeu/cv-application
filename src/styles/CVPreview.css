@@ -1,92 +1,96 @@
 :root {
-    --bg-primary: #ffffff;
-    --text-primary: #000000;
-    --text-secondary: #666666;
+  --bg-primary: #ffffff;
+  --text-primary: #000000;
+  --text-secondary: #666666;
 
-    --bg-secondary: #f8f9fa;
-    --bg-tertiary: #f1f3f4;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #f1f3f4;
 
-    --border-light: #e0e0e0;
-    --border-medium: #d0d0d0;
-    --border-dark: #b0b0b0;
+  --border-light: #e0e0e0;
+  --border-medium: #d0d0d0;
+  --border-dark: #b0b0b0;
 
-    --primary: #1e3a8a;
-    --accent: #f59e0b;
+  --primary: #1e3a8a;
+  --accent: #f59e0b;
 }
 
 .cvPage {
-    background-color: var(--bg-primary);
-    aspect-ratio: 8.5 / 11;
-    width: 100%;
-    max-width: 8.5in;
-    max-height: 11in;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    position: sticky;
-    top: 20px;   
-    left: 50vw;
+  background-color: var(--bg-primary);
+  aspect-ratio: 8.5 / 11;
+  width: 100%;
+  max-width: 8.5in;
+  max-height: 11in;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 20px;
+  left: 50vw;
 }
 
 .cvGeneralSection {
-    background-color: var(--primary);
-    color: var(--bg-secondary);
-    text-align: center;
-    padding: 20px;
+  background-color: var(--primary);
+  color: var(--bg-secondary);
+  text-align: center;
+  padding: 20px;
 }
 
 .cvGeneralSection h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .cvGeneralSection h2 {
-    font-size: 1.9rem;
+  font-size: 1.9rem;
 }
 
 .cvGeneralDetails {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .cvGeneralDetails p {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.cvPracticalSection, .cvEducationSection {
-    margin: 0.5in 0.75in;
+.cvPracticalSection,
+.cvEducationSection {
+  margin: 0.5in 0.75in;
 }
 
-.cvPracticalSection h2, .cvEducationSection h2 {
-    position: relative;
-    padding-bottom: 5px;
+.cvPracticalSection h2,
+.cvEducationSection h2 {
+  position: relative;
+  padding-bottom: 5px;
 }
 
-.cvPracticalSection h2:after, .cvEducationSection h2:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--accent);
-    height: 3px;
+.cvPracticalSection h2:after,
+.cvEducationSection h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--accent);
+  height: 3px;
 }
 
-.cvPracticalItem, .cvEducationItem {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    gap: 3px;
+.cvPracticalItem,
+.cvEducationItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 3px;
 }
 
 .company {
-    font-weight: bolder;
-    font-size: 1.1rem;
+  font-weight: bolder;
+  font-size: 1.1rem;
 }
 
 .spacebtwRow {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 1024px) {
